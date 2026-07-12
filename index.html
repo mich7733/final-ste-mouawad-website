@@ -116,11 +116,22 @@
 
 <!-- ============ ABOUT ============ -->
 <section id="about" style="background:#f7f3ec;padding:88px 34px">
-  <div style="background:red;padding:20px;">
+ <div style="
+    position:relative;
+    aspect-ratio:0.92;
+    background:#e7ded2;
+    overflow:hidden;
+">
     <img
         src="uploads/Ste mouawad Square (12).jpg"
-        alt="About"
-        style="width:100%;display:block;"
+        alt="Ste. Mouawad Craftsman"
+        style="
+            position:absolute;
+            inset:0;
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        "
     >
 </div>
     <div style="direction:var(--textdir,ltr);text-align:var(--talign,left)">
@@ -296,7 +307,7 @@ class Component extends DCLogic {
       heroSub: 'From design to execution, transforming natural stone into timeless works of art.',
       heroCta1: 'View Our Work', heroCta2: 'WhatsApp Us', igWord: 'Instagram', fbWord: 'Facebook',
       aboutKicker: 'A Legacy of Faith & Artistry',
-      aboutTitle: 'A Family Legacy in Stone test',
+      aboutTitle: 'A Family Legacy in Stone',
       aboutP1: 'Since 1967, STE. MOUAWAD has specialized in churches, altars, sculptures, fireplaces, and custom marble creations throughout Lebanon and beyond.',
       aboutP2: 'Every project combines artistic vision, technical expertise, and generations of craftsmanship.',
       aboutSig: 'Ste. Mouawad',
