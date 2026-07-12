@@ -117,7 +117,12 @@
 <!-- ============ ABOUT ============ -->
 <section id="about" style="background:#f7f3ec;padding:88px 34px">
   <div style="max-width:1120px;margin:0 auto;display:grid;grid-template-columns:0.95fr 1.05fr;gap:56px;align-items:center;direction:ltr">
-    <div style="position:relative;aspect-ratio:0.92;background:#e7ded2;overflow:hidden"><div style="position:absolute;inset:0"><image-slot id="about_img" shape="rect" placeholder="{{ t.phAbout }}"></image-slot></div></div>
+    <div style="position:relative;aspect-ratio:0.92;background:#e7ded2;overflow:hidden"> <img
+        src="uploads/Ste mouawad Square (12).jpg"
+        alt="Ste. Mouawad Craftsman"
+        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block;"
+    />
+</div>
     <div style="direction:var(--textdir,ltr);text-align:var(--talign,left)">
       <div style="font-family:var(--font-nav,'Source Serif 4',serif);font-size:13px;letter-spacing:.2em;text-transform:var(--upper,uppercase);color:var(--accent,#a8321f);font-weight:700;margin-bottom:16px">{{ t.aboutKicker }}</div>
       <h2 style="margin:0 0 24px;font-family:var(--font-head,'Playfair Display',serif);font-weight:700;font-size:clamp(30px,3.6vw,46px);line-height:1.14;color:#241d18">{{ t.aboutTitle }}</h2>
